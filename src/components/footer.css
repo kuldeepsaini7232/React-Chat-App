@@ -1,0 +1,37 @@
+.send form{
+    display:flex;
+    position:absolute;
+    bottom:5px;
+    height:56px;
+    width:100%;
+}
+.send input{
+    width:70%;
+    background-color:#8D3DAF;
+    border:none;
+    outline:none;
+    box-shadow: 0px 0px 2px #CAD5E2;
+    color:#fff;
+    font-size:14px;
+    padding-left:8px;
+    margin-left:8px;
+}
+.send input::placeholder{
+    color:#fff;
+    font-size:14px;
+    padding-left: 8px;
+}
+
+.send button{
+    width:29%;
+    background-color:#8D3DAF;
+    color:#ffff;
+    border:none;
+    outline:none;
+    box-shadow: 0px 0px 2px #CAD5E2;
+    font-size: 18px;;
+    margin:0px 18px;
+}
+.send button:hover{
+    cursor:pointer;
+}

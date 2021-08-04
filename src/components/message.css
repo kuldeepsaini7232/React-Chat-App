@@ -9,11 +9,7 @@ p{
     box-shadow:0px 0px 1px black;
     padding:10px;
 }
-.recieve{
+.rec{
     display: flex;
     justify-content: flex-start;
-}
-.recieve p{
-    background-color:white;
-    color:#0000;
 }

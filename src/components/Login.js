@@ -12,7 +12,7 @@ const Login=()=>{
         const provider=await new firebase.auth.GoogleAuthProvider;
        await auth.signInWithPopup(provider)
        .then(res=>{
-          context.setUser(res)
+           context.setUser(res)//ser user in the context
        })
        }
     return(

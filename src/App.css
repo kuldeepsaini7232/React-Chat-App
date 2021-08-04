@@ -6,10 +6,14 @@
   text-transform: capitalize;
   user-select: none;
 }
+body{
+  background:#CAD5E2;
+}
 .app{
   background-color:#8D3DAF;
   font-family: 'Poppins', sans-serif;
-  min-height:100vh;
+  height:100vh;
+  max-height:800px;
   width:35%;
   margin:auto;
   border-radius:10px;
